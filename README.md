@@ -3,12 +3,12 @@ This code does the recursive spectral bipartition algorithm which finds  the bes
 
 # CODE
  # Spectral bipartition Function
-  The first part of the code defines a recursive spectral bipartition function which splits the graph.
-  The function checks the leading eigenvalue of Modularity Matrix , if its  positive this implies  it can be split.
-  Then if it can be split it assigns the nodes to 2 different communities based on the signs of elements of leading eigenvectors.
-  Then if sign of all elements in eigen vector is same this means that all nodes belong to same community so it can't be split no more.
-  So code checks if one of communities are empty list and if so it exits while loop and splits no more.
-  Finally the function returns a  community history list which is a nested list of communities present at each iteration of the split.
+  The first part of the code defines a recursive spectral bipartition function which splits the graph.                                                               
+  The function checks the leading eigenvalue of Modularity Matrix , if its  positive this implies  it can be split.                                                  
+  Then if it can be split it assigns the nodes to 2 different communities based on the signs of elements of leading eigenvectors.                                           
+  Then if sign of all elements in eigen vector is same this means that all nodes belong to same community so it can't be split no more.                                     
+  So code checks if one of communities are empty list and if so it exits while loop and splits no more.                                                                                                         
+  Finally the function returns a  community history list which is a nested list of communities present at each iteration of the split.                               
 # Visualisation
   The code iterates through the community history list and plots communities present in every iteration as graph with every community having different colour.
   The code creates a metric history dictionary which contains each node and each of its centrality scores at every iteration.
