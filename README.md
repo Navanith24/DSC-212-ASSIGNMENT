@@ -1,5 +1,5 @@
 # SPECTRAL BIPARTITION AND MODULARITY ANALYSIS OF KARATE CLUB SET 
-This code does the recursive spectral bipartition algorithm which finds  the best possible set of communities within the karate club set which maximises the modularity score . This is done by checking the the eigen value of modularitty matrix 'B' and finding its leading eigen vector.
+This code does the recursive spectral bipartition algorithm which finds  the best possible set of communities within the karate club set which maximises the modularity score . This is done by checking the the eigen value of modularity matrix 'B' and finding its leading eigen vector.
 
 # CODE
  # Spectral bipartition Function
