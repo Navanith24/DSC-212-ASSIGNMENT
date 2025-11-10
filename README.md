@@ -17,7 +17,7 @@ This code does the recursive spectral bipartition algorithm which finds  the bes
   (3)Then iterating through this dictionary , each metric score V/s node ID is  plotted for every iteration as a bar plot.
   
 # SHORT DISCUSSION
-The Nodes  0,5,33 consistently remains central across the 3 iterations.They have high value of degree centrality ,betweenness centrality and closeness centrality   relative to all other nodes in all iteration indicating that even after splitting into separate communities it remains relatively important.But however the  clustering scores for these nodes are relatively low as it connects separate communities and so fraction neighbours of these nodes which are connected between
+The Nodes  0,33 consistently remains central across the 3 iterations.They have high value of degree centrality ,betweenness centrality and closeness centrality   relative to all other nodes in all iteration indicating that even after splitting into separate communities it remains relatively important.But however the  clustering scores for these nodes are relatively low as it connects separate communities and so fraction neighbours of these nodes which are connected between
 themselves will be low.
 
 The structure of community structures affect these metrics very much such as Node 8 which had high betweenness centrality in iteration 0 but after iter 1 and iter 2 this became zero showing that it had acted as a bridge connecting 2 communities but however after splitting it got destroyed.The community structure concentrates betweenness centrality in a few bridging nodes, while most others have very low values because they operate only within tightly knit groups.
